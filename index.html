@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneio de VolleyBall</title>
+</head>
+
+<body>
+    <form>
+        <h2>Se inscreva e nós conte sua opnião sobre o evento mais esperado do século! </h2>
+        <label for="pesquisa">Pesquisar</label>
+        <input type="search" placeholder="suas dúvidas">
+        <h3>Informe seus dados abaixo ⬇️</h3>
+        <label for="nome-particpante">Nome</label>
+        <input id="nome-particpante" type="text" placeholder="Nome completo">
+        <br />
+        <label for="contato">Contato</label>
+        <input type="tel" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="xx-xxxx-xxxx">
+
+        <br />
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="...@gmail.com">
+        <br />
+        <label for="datadenascimento">Data de nascimento</label>
+        <input type="date" min="1920-01-01">
+        <br>
+
+        <h3>Dados de inscrição e pesquisa</h3>
+        <label for="dataehora"> Data e hora da inscrição </label>
+        <input id="dataehora" type="datetime-local" min="2020-01-01" max="2024-10-17">
+        <br />
+        <label for="satisfação">Diga seu nível de satisfação com o evento</label>
+        <input type="number" min="0" max="10">
+        <br />
+        <label for="interesse">Diga seu grau de interesse em participar de nosso evento</label>
+        <input type="range" min="1" max="10">
+        <br />
+        <label for="documentos">Envie os documentos necessários para a confimação da inscrição:</label>
+        <br>
+        <input type="file">
+        <br /><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>
